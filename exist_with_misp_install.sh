@@ -172,7 +172,7 @@ After = celery.service
 
 [Service]
 WorkingDirectory=/opt/exist
-ExecStart=/opt/exist/venv-exist/bin/python3 manage.py runserver 0.0.0.0:8000
+ExecStart=/opt/exist/venv-exist/bin/python3 manage.py runserver 0.0.0.0:443
 Restart=always
 Type=simple
 KillMode=control-group
